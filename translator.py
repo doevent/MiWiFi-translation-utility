@@ -19,7 +19,8 @@ rootLANG2 = treeLANG2.getroot()
 count = 0
 count2 = 0
 
-print(f'String elements CN: {len(rootCN)}, String elements LANG (rus\en): {len(rootLANG)}\n\n')
+print(f'String elements CN: {len(rootCN)} (values/strings.xml), String elements LANG (rus\en): {len(rootLANG)} (values-strings.xm)')
+print(f'String elements CN: {len(rootCN2)} (values-zh-rCN/strings.xml), String elements LANG (rus\en): {len(rootLANG2)} (values-zh-rCN-strings.xml)\n\n')
 
 logging.info('====================================================================================')
 logging.info('VALUE/STRING.XML')
@@ -35,7 +36,7 @@ for child in rootCN:
     if findBD is not None:
         child.text = findBD.text
     else:
-        count = count + 1
+        count += 1
         print(f"Found new strings <{child.tag} name=\"{child.attrib['name']}\">{child.text}</{child.tag}>")
         logging.info(f"<{child.tag} name=\"{child.attrib['name']}\">{child.text}</{child.tag}>")
 
@@ -54,7 +55,7 @@ for child in rootCN2:
     if findBD is not None:
         child.text = findBD.text
     else:
-        count2 = count2 + 1
+        count2 += 1
         print(f"Found new strings: <{child.tag} name=\"{child.attrib['name']}\">{child.text}</{child.tag}>")
         logging.info(f"<{child.tag} name=\"{child.attrib['name']}\">{child.text}</{child.tag}>")
 
