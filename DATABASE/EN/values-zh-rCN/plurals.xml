@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="backup_complete_notification_text_photo_x">
+        <item quantity="other">%d photos backed up</item>
+        <item quantity="one">%d photo backed up</item>
+    </plurals>
+    <plurals name="backup_complete_notification_text_video_x">
+        <item quantity="other">%d videos backed up</item>
+        <item quantity="one">%d video backed up</item>
+    </plurals>
+    <plurals name="block_device_crack_router_management_password_frequency_x">
+        <item quantity="other">Trying to get router admin password %d times per minute</item>
+        <item quantity="one">Trying to get router admin password %d time per minute</item>
+    </plurals>
+    <plurals name="block_device_crack_wifi_password_frequency_x">
+        <item quantity="other">Trying to get WiFi password %d times per minute</item>
+        <item quantity="one">Trying to get WiFi password %d time per minute</item>
+    </plurals>
+    <plurals name="block_device_invade_frequency_x">
+        <item quantity="other">%d times per minute</item>
+        <item quantity="one">%d time per minute</item>
+    </plurals>
+    <plurals name="block_device_record_times_auto">
+        <item quantity="other">Blocked %d times</item>
+        <item quantity="one">Blocked %d time</item>
+    </plurals>
+    <plurals name="block_device_record_times_black">
+        <item quantity="other">Blocked %d times</item>
+        <item quantity="one">Blocked %d time</item>
+    </plurals>
+    <plurals name="block_device_x_times">
+        <item quantity="other">Blocked %d times</item>
+        <item quantity="one">Blocked %d time</item>
+    </plurals>
+    <plurals name="bootstrap_name_too_long">
+        <item quantity="other">Name should contain up to %d characters</item>
+        <item quantity="one">Name should contain only %d character</item>
+    </plurals>
+    <plurals name="bootstrap_wifi_name_too_long">
+        <item quantity="other">Network name should contain up to %d</item>
+        <item quantity="one">Network name should contain only %d</item>
+    </plurals>
+    <plurals name="client_block_device_crack_router_x_times">
+        <item quantity="other">Tried to break in to router %d times per minute</item>
+        <item quantity="one">Tried to break in to router %d time per minute</item>
+    </plurals>
+    <plurals name="client_block_device_crack_router_x_times_auto_blocked">
+        <item quantity="other">Device blocked (tried to break in to router %d times per minute)</item>
+        <item quantity="one">Device blocked (tried to break in to router %d time per minute)</item>
+    </plurals>
+    <plurals name="client_block_device_try_to_connect_to_router_x_times">
+        <item quantity="other">Try to connect to network %d times per minute</item>
+        <item quantity="one">Try to connect to network %d time per minute</item>
+    </plurals>
+    <plurals name="client_block_device_try_to_connect_to_router_x_times_auto_blocked">
+        <item quantity="other">Device blocked (Try to connect to network %d times per minute)</item>
+        <item quantity="one">Device blocked (Try to connect to network %d time per minute)</item>
+    </plurals>
+    <plurals name="client_camera_image_found">
+        <item quantity="other">%d photos found</item>
+        <item quantity="one">%d photo found</item>
+    </plurals>
+    <plurals name="client_camera_scanning_count">
+        <item quantity="other">Scanning files (%d scanned)…</item>
+        <item quantity="one">Scanning files (%d scanned)…</item>
+    </plurals>
+    <plurals name="client_camera_video_found">
+        <item quantity="other">%d videos found</item>
+        <item quantity="one">%d video found</item>
+    </plurals>
+    <plurals name="client_guest_device_online">
+        <item quantity="other">%d users connected</item>
+        <item quantity="one">%d user connected</item>
+    </plurals>
+    <plurals name="client_qos_input_cannot_be_more_than">
+        <item quantity="other">Enter up to %d</item>
+        <item quantity="one">Enter up to %d</item>
+    </plurals>
+    <plurals name="client_qos_input_must_be_more_than">
+        <item quantity="other">Should be more than %d</item>
+        <item quantity="one">Should be more than %d</item>
+    </plurals>
+    <plurals name="client_qos_input_out_of_bound">
+        <item quantity="other">Enter up to %d</item>
+        <item quantity="one">Enter up to %d</item>
+    </plurals>
+    <plurals name="client_storage_device_event_scan_finished_image">
+        <item quantity="other">%d photos found</item>
+        <item quantity="one">%d photo found</item>
+    </plurals>
+    <plurals name="client_storage_device_event_scan_finished_video">
+        <item quantity="other">%d videos found</item>
+        <item quantity="one">%d video found</item>
+    </plurals>
+    <plurals name="common_input_too_long">
+        <item quantity="other">Should contain up to %d characters</item>
+        <item quantity="one">Should contain only %d character</item>
+    </plurals>
+    <plurals name="common_select_n">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="common_time_days_ago">
+        <item quantity="other">%1$d days ago</item>
+        <item quantity="one">%1$d day ago</item>
+    </plurals>
+    <plurals name="common_time_hours_ago">
+        <item quantity="other">%1$d hours ago</item>
+        <item quantity="one">%1$d hour ago</item>
+    </plurals>
+    <plurals name="common_time_minutes_ago">
+        <item quantity="other">%1$d minutes ago</item>
+        <item quantity="one">%1$d minute ago</item>
+    </plurals>
+    <plurals name="common_time_seconds_ago">
+        <item quantity="other">%1$d seconds ago</item>
+        <item quantity="one">%1$d second ago</item>
+    </plurals>
+    <plurals name="download_share_batch_link_title">
+        <item quantity="other">Share %1$d items</item>
+        <item quantity="one">Share %1$d item</item>
+    </plurals>
+    <plurals name="file_batch_folder_operation_suffix">
+        <item quantity="other">%d files</item>
+        <item quantity="one">%d file</item>
+    </plurals>
+    <plurals name="file_transfer_display_size_file_count">
+        <item quantity="other">%d files (folders)</item>
+        <item quantity="one">%d file (folder)</item>
+    </plurals>
+    <plurals name="file_transfer_folder_download_size">
+        <item quantity="other">%d files total</item>
+        <item quantity="one">%d file total</item>
+    </plurals>
+    <plurals name="file_transfer_global_state_mesage">
+        <item quantity="other">%1$s, %2$d tasks remaining</item>
+        <item quantity="one">%1$s, %2$d task remaining</item>
+    </plurals>
+    <plurals name="file_transfer_notification_all_task_success">
+        <item quantity="other">%d tasks transferred</item>
+        <item quantity="one">%d task transferred</item>
+    </plurals>
+    <plurals name="file_transfer_notification_download_success">
+        <item quantity="other">Downloaded %d files successfully</item>
+        <item quantity="one">Downloaded %d file successfully</item>
+    </plurals>
+    <plurals name="file_transfer_notification_upload_success">
+        <item quantity="other">Uploaded %d files successfully</item>
+        <item quantity="one">Uploaded %d file successfully</item>
+    </plurals>
+    <plurals name="minet_connect_waiting_tip">
+        <item quantity="other">Select the device to be accessed. MiNET is closing in %d minutes.</item>
+    </plurals>
+    <plurals name="network_optimize_download_has_tasks">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="parent_control_filter_black_status">
+        <item quantity="other">%d blocked websites</item>
+        <item quantity="one">%d blocked website</item>
+    </plurals>
+    <plurals name="parent_control_filter_url_limited">
+        <item quantity="other">Can add up to %d websites</item>
+        <item quantity="one">Can add %d website</item>
+    </plurals>
+    <plurals name="parent_control_filter_white_status">
+        <item quantity="other">%d exceptions</item>
+        <item quantity="one">%d exception</item>
+    </plurals>
+    <plurals name="pictures_group_name_x_num_x">
+        <item quantity="other">%1$d photos</item>
+        <item quantity="one">%1$d photo</item>
+    </plurals>
+    <plurals name="promote_camera_backup_finish_text_image">
+        <item quantity="other">%d photos imported successfully</item>
+        <item quantity="one">%d photo imported successfully</item>
+    </plurals>
+    <plurals name="promote_camera_backup_finish_text_video">
+        <item quantity="other">%d videos imported successfully</item>
+        <item quantity="one">%d video imported successfully</item>
+    </plurals>
+    <plurals name="promote_photo_backup_finish_text_image">
+        <item quantity="other">%d photos backed up successfully</item>
+        <item quantity="one">%d photo backed up successfully</item>
+    </plurals>
+    <plurals name="promote_photo_backup_finish_text_video">
+        <item quantity="other">%d videos backed up successfully</item>
+        <item quantity="one">%d video backed up successfully</item>
+    </plurals>
+    <plurals name="reset_factory_exit">
+        <item quantity="other">App will exit in %ds</item>
+        <item quantity="one">App will exit in %ds</item>
+    </plurals>
+    <plurals name="statistics_storage_usage_doc_description">
+        <item quantity="other">%d files</item>
+        <item quantity="one">%d file</item>
+    </plurals>
+    <plurals name="statistics_storage_usage_music_description">
+        <item quantity="other">%d audio files</item>
+        <item quantity="one">%d audio file</item>
+    </plurals>
+    <plurals name="statistics_storage_usage_photo_description">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">%d photo</item>
+    </plurals>
+    <plurals name="statistics_storage_usage_video_description">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="tool_security_prevent_hijack_log_header_title">
+        <item quantity="other">Anti-hacking %1$d times</item>
+        <item quantity="one">Anti-hacking %1$d time</item>
+    </plurals>
+    <plurals name="tool_security_private_protect_log_header_title">
+        <item quantity="other">Anti-leak %1$d times</item>
+        <item quantity="one">Anti-leak %1$d time</item>
+    </plurals>
+    <plurals name="tool_security_virus_firewall_log_header_title">
+        <item quantity="other">Blocked %1$d viruses</item>
+        <item quantity="one">Blocked %1$d virus</item>
+    </plurals>
+    <plurals name="tool_security_virus_found_number">
+        <item quantity="other">Found %1$d dangerous programs</item>
+        <item quantity="one">Found %1$d dangerous program</item>
+    </plurals>
+    <plurals name="tool_security_web_firewall_header_title">
+        <item quantity="other">Blocked %1$d malicious websites</item>
+        <item quantity="one">Blocked %1$d malicious website</item>
+    </plurals>
+    <plurals name="tool_security_wifi_block_log_header_title">
+        <item quantity="other">Blocked %1$d connection attempts</item>
+        <item quantity="one">Blocked %1$d connection attempt</item>
+    </plurals>
+    <plurals name="tool_security_wifi_block_log_sub_info">
+        <item quantity="other">%1$s | %2$s | Block %3$d times</item>
+        <item quantity="one">%1$s | %2$s | Block %3$d time</item>
+    </plurals>
+    <plurals name="videos_group_name_x_num_x">
+        <item quantity="other">%1$d videos</item>
+        <item quantity="one">%1$d video</item>
+    </plurals>
+    <plurals name="wps_connect_waiting_tip">
+        <item quantity="other">Turn off in %d min</item>
+        <item quantity="one">Turn off in %d min</item>
+    </plurals>
+</resources>
