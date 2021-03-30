@@ -6,33 +6,22 @@ Fills strings in a new file from an old file XML
 ### Instructions
 1. Download Xiaomi MiWiFi APP [Android APP](http://www1.miwifi.com/miwifi_download.html) 
 2. Unpack APK file [for example](https://github.com/kefir500/apk-editor-studio)
-3. Rename and copy old translation files from this repository: strings.xml
-```
-lang_old\values\strings-en.xml
-in 
-values-strings.xml
-```
-```
-lang_old\values-zh-rCN\strings-en.xml
-in 
-values-zh-rCN-strings.xml
-```
-
-4. Сopy two files from unpack miwifi.APK: strings.xml
+3. Сopy 4 files from unpack miwifi.APK: strings.xml, plurals.xml
 
 ```
-\res\values\strings.xml
+\res\values\strings.xml and plurals.xml
 in
-values\strings.xml
+values\strings.xml and plurals.xml
 ```
 ```
-\res\values-zh-rCN\strings.xml
+\res\values-zh-rCN\strings.xml and plurals.xml
 in
-values-zh-rCN\strings.xml
+values-zh-rCN\strings.xml and plurals.xml
 ```
-5. Run python translator.py
-6. New strings are copied to file: string.txt
-7. Translate new strings and copy files back \res\values-zh-rCN and \res\values\strings.xml unpack APK
+4. Run python translator.py
+5. New strings are copied to file: new_string.txt
+6. Translate new strings in new_string.txt
+7. Run python translator.py
 8. Repack APK file
 
 ### Compatibility
