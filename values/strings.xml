@@ -55,6 +55,7 @@
     <string name="about_router_shopping_bar_title">Сравнение цен</string>
     <string name="about_router_sn">SN</string>
     <string name="about_router_wi_fi_protocol">протокол Wi-Fi</string>
+    <string name="access_denied_info">Слишком много попыток. Подождите минуту или две и попробуйте еще раз.</string>
     <string name="account_bind_secure_email_title">Добавить эл.почту для восстановления</string>
     <string name="account_bind_secure_phone_title">Добавить номер телефона для восстановления</string>
     <string name="account_crop_user_avatar">Кадрировать фотографию</string>
@@ -67,9 +68,12 @@
     <string name="account_error_user_name">Этот ник недействителен. Попробуйте другой вариант.</string>
     <string name="account_invalid_user_avatar">Эта фотография недействительна. Попробуйте другой вариант.</string>
     <string name="account_limit_update_birthday">Не могу обновить день рождения прямо сейчас</string>
+    <string name="account_more_tip">"Войдите в Xiaomi WiFi, используя свою учетную запись Xiaomi."</string>
     <string name="account_no_set">Выкл.</string>
     <string name="account_none_bind_info">Выкл.</string>
     <string name="account_none_user_name">Выкл.</string>
+    <string name="account_out_attention">Вы собираетесь выйти из своей учетной записи и удалить все свои данные и их нельзя будет восстановить. Все маршрутизаторы под вашей текущей учетной записью Xiaomi будут отключены, а данные, хранящиеся на сервере будут удалены.</string>
+    <string name="account_out_service">Выход из учетной записи</string>
     <string name="account_secure_info_pref_title">Информация о аккаунте</string>
     <string name="account_security_info_pref_title">Информация о безопасности</string>
     <string name="account_user_avatar">Аватар</string>
@@ -94,6 +98,7 @@
     <string name="add_vpn_server">Добавить VPN конфигурацию</string>
     <string name="admin_new_password">Новый пароль</string>
     <string name="admin_new_password_confirm">Подтвердите новый пароль</string>
+    <string name="admin_new_password_confirm_error">Пароли не совпадают</string>
     <string name="admin_new_password_confirm_hint">Введите новый пароль еще раз</string>
     <string name="admin_new_password_hint">Новый пароль не должен быть меньше 8 символов</string>
     <string name="admin_old_password">Старый пароль</string>
@@ -103,6 +108,7 @@
     <string name="agreement_statement_content_1">Вы можете отключить авторизацию в настройках вашей системы, но это может повлиять на некоторые функции.</string>
     <string name="agreement_statement_content_2">Для обеспечения надлежащего функционирования роутеры Xiaomi/Redmi собирают, обрабатывают и используют вашу личную информацию. Пожалуйста, внимательно прочитайте, прежде чем начать использовать службу роутера Xiaomi/Redmi</string>
     <string name="agreement_statement_tip_title">Чтобы предоставить вам более точные услуги, Xiaomi WiFi требует подключения к сети, а также вызова следующих разрешений или функций для сбора информации, необходимой для использования:</string>
+    <string name="alipay_cient_not_found_tips">Пожалуйста, установите последнюю версию клиента Alipay и попробуйте еще раз.</string>
     <string name="all_videos">Всё видео</string>
     <string name="app_name">Svc</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -116,7 +122,7 @@
     <string name="backup_auto_backup_when_router_wifi_connected">Автобэкап при подключении к Wi-Fi</string>
     <string name="backup_auto_rebackup_for_router_directory_deleted">Папка с бэкапом на роутере была удалена, перемещена или переименована. Повторить бэкап?</string>
     <string name="backup_backing_up_x">Бэкап: %s</string>
-    <string name="backup_cancel_backup">Отмена бэкапа<u>取消备份</u></string>
+    <string name="backup_cancel_backup">Отмена бэкапа<u>取消备份</u>" "</string>
     <string name="backup_cancel_rebackup">Отмена бэкапа</string>
     <string name="backup_cannot_browse_folder_for_not_backup_yet">Бэкап этого устройства еще не проводился</string>
     <string name="backup_complete">Бэкап завершен!</string>
@@ -158,7 +164,7 @@
     <string name="backup_scanning_files">Сканирование документов...</string>
     <string name="backup_selected_x_folders">Выберите папку %s</string>
     <string name="backup_settings">Параметры автобэкапа</string>
-    <string name="backup_skip_backup">Далее<u>跳过</u></string>
+    <string name="backup_skip_backup">Далее<u>跳过</u>" "</string>
     <string name="backup_start_backup">Включить автобэкап</string>
     <string name="backup_switcher_is_off">Бэкап отключен</string>
     <string name="backup_whether_rebackup_on_router_directory_deleted">Папка с бэкапом на роутере была удалена, перемещена или переименована. Повторить бэкап?</string>
@@ -187,7 +193,7 @@
     <string name="bind_connect_failed">Не удалось подключиться к Wi-Fi, попробуйте еще раз</string>
     <string name="bind_connecting">Подключение к Wi-Fi, пожалуйста, подождите</string>
     <string name="bind_deny_for_server_locale_1">Невозможно привязать роутер с текущим регионом</string>
-    <string name="bind_deny_for_server_locale_2">Переключите регион.<u>请先切换地区</u></string>
+    <string name="bind_deny_for_server_locale_2">Переключите регион.<u>请先切换地区</u>" "</string>
     <string name="bind_device_error_connect_fail">Сбой подключения Bluetooth</string>
     <string name="bind_device_error_dhcp">Не удалось подключиться к Wi-Fi, проверьте правильность информации Wi-Fi</string>
     <string name="bind_device_error_internet">Внешняя сеть отключена. Проверьте, может ли роутер получить доступ в Интернет.</string>
@@ -202,6 +208,7 @@
     <string name="bind_failed">Сбой привязки роутера Xiaomi/Redmi</string>
     <string name="bind_find_miwifi">Настройка нового роутера</string>
     <string name="bind_found_tip">Найден роутер Xiaomi/Redmi</string>
+    <string name="bind_goto_mihome">Перейти к Mijia</string>
     <string name="bind_login_failed">Ошибка пароля администратора роутера</string>
     <string name="bind_meshConneted">Подключено к устройству Mesh</string>
     <string name="bind_nofind_miwifi">Не найдена сеть для добавления</string>
@@ -221,6 +228,7 @@
     <string name="bind_search_error_6">Не обнаружен неинициализированный или непривязанный роутер Xiaomi/Redmi</string>
     <string name="bind_search_error_66">"Не найден неинициализированный или непривязанный роутер Xiaomi/Redmi
 Если вы хотите настроить роутер Xiaomi Mesh, пожалуйста, включите Bluetooth телефона"</string>
+    <string name="bind_search_error_7">Извините, что маршрутизатор, к которому вы в настоящее время подключены, не поддерживает управление приложением Mi WiFi, используйте приложение Mijia для управления маршрутизатором</string>
     <string name="bind_search_tip">Поиск нового роутера Xiaomi/Redmi</string>
     <string name="bind_searching">Поиск</string>
     <string name="bind_searching_with_ellipsis">Поиск...</string>
@@ -286,7 +294,7 @@
     <string name="block_device_limited_error">Не удалось добавить, можно добавить только до 32 устройств</string>
     <string name="block_device_mac">Mac адрес</string>
     <string name="block_device_mode_setting_title">Настройка режима \"Анти-Халявщик\"</string>
-    <string name="block_device_offline">Устройство оффлайн</string>
+    <string name="block_device_offline">Устройство не в сети</string>
     <string name="block_device_protected">Защита</string>
     <string name="block_device_record">Отчеты блокировки</string>
     <string name="block_device_record_description">Подробная информация о блокировке</string>
@@ -385,7 +393,7 @@
     <string name="bootstrap_backup_no_pppoe_account">Нет бэкапа, выберите вручную</string>
     <string name="bootstrap_backup_select">Выберите бэкап, который вы хотите использовать</string>
     <string name="bootstrap_backup_tip">Найдены локальные настройки роутера для бэкапа информации</string>
-    <string name="bootstrap_backup_unuseful">Не используйте бэкап, сброс<u>不使用备份，重新设置</u></string>
+    <string name="bootstrap_backup_unuseful">Не используйте бэкап, сброс<u>不使用备份，重新设置</u>" "</string>
     <string name="bootstrap_check_dhcp_tip">Дозвона не требуется</string>
     <string name="bootstrap_check_pppoe_tip">"Текущее подключение определено как PPPOE
 Необходимо ввести логин и пароль"</string>
@@ -419,10 +427,10 @@
     <string name="bootstrap_get_relay_wifi_failed">Не удалось получить сведения о сети</string>
     <string name="bootstrap_name_prompt">Ник</string>
     <string name="bootstrap_name_tip">Это имя будет видимым для других устройств расположенных поблизости</string>
-    <string name="bootstrap_need_dial">Наберите номер<u>需要拨号</u></string>
-    <string name="bootstrap_need_not_dial">Дозвон не нужен<u>无需拨号</u></string>
+    <string name="bootstrap_need_dial">Наберите номер<u>需要拨号</u>" "</string>
+    <string name="bootstrap_need_not_dial">Дозвон не нужен<u>无需拨号</u>" "</string>
     <string name="bootstrap_need_not_dial_pppoe">Нет доступа в Интернет</string>
-    <string name="bootstrap_other_mode">Выбрать другие средства поиска<u>选择其他上网方式</u></string>
+    <string name="bootstrap_other_mode">Выбрать другие средства поиска<u>选择其他上网方式</u>" "</string>
     <string name="bootstrap_place_home">Дом</string>
     <string name="bootstrap_place_office">Предприятие</string>
     <string name="bootstrap_place_other">Пользовательские</string>
@@ -486,7 +494,9 @@
     <string name="bootstrap_wireless_relay_password_tip">Имя Wi-Fi и пароль роутера (можно изменить в последствии), пароль Wi-Fi также установлен на пароль администратора роутера.</string>
     <string name="bootstrap_wireless_relay_password_tip1">Имени ретранслятора Wi-Fi “plus” соответствует суффикс, пароль и источник, в то время как пароль Wi-Fi установлен в административный пароль роутера</string>
     <string name="bootstrap_wireless_relay_password_tip2">Имя ретранслятора Wi-Fi 2.4G и 5G имена, так, чтобы “plus” в соответствии, пароль и последовательных источников, в то время как пароль Wi-Fi установлен в административный пароль роутера</string>
+    <string name="bootstrap_wireless_relay_password_tip3">Имя Wi-Fi 2.4G/5G/ 5G Game после ретрансляции такое же, но с добавлением «PLUS», пароли такие же, как у источника сигнала и пароль Wi-Fi установлен в качестве пароля для роутера</string>
     <string name="bootstrap_wireless_relay_wifi_24g_name_prompt">Имя 2.4G Wi-Fi</string>
+    <string name="bootstrap_wireless_relay_wifi_5g2_name_prompt">5G Game Wi-Fi - название</string>
     <string name="bootstrap_wireless_relay_wifi_5g_name_prompt">Имя 5G Wi-Fi</string>
     <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
     <string name="broadband_account">Логин</string>
@@ -556,6 +566,7 @@
     <string name="choose_to_signin">Да</string>
     <string name="choose_to_signup">Нет, я создам один</string>
     <string name="choosertitle_sharevia">Выберите режим Поделиться</string>
+    <string name="cient_not_found_tips">Не удается открыть соответствующее приложение, попробуйте еще раз после установки.</string>
     <string name="clean_cache">Очистка в одно нажатие</string>
     <string name="clean_cache_clean_list">Очистка программ</string>
     <string name="clean_cache_cleaned">Очистить кэш от мусора</string>
@@ -568,6 +579,7 @@
     <string name="clean_cache_one_click_clean">Очистка в одно нажатие</string>
     <string name="clean_cache_reminder">Много мусора в кэше, может повлиять на работу роутера</string>
     <string name="clean_cache_select_none_error">Пожалуйста, выберите по крайней мере один пункт очистки</string>
+    <string name="click_here">Кликните сюда</string>
     <string name="client_account_inconsistent_with_current_login">Устройство уже привязано к другому аакаунту Xiaomi, пожалуйста, войдите в систему “MiHome“ отвяжите и привяжите устройство снова</string>
     <string name="client_account_inconsistent_with_current_login_new">"Это устройство уже связано с другим Mi-аккаунтом:
 1. Войдите в приложение MiHome для подключения к этому устройству и управления другими Mi устройствами
@@ -619,7 +631,7 @@
     <string name="client_current_bandwidth_getting_faild">Полоса пропускания неизвестна, &lt;u&gt;обнаружить&lt;/u&gt;</string>
     <string name="client_current_bandwidth_getting_failed_link_target">Нажмите этот тест</string>
     <string name="client_current_bandwidth_getting_unknow">Полоса пропускания неизвестна, &lt;u&gt;тестировать&lt;/u&gt;</string>
-    <string name="client_current_bandwidth_offline">Оффлайн, полоса пропускания неизвестна</string>
+    <string name="client_current_bandwidth_offline">Не в сети, полоса пропускания неизвестна</string>
     <string name="client_current_bandwidth_unknown">Неизвестно</string>
     <string name="client_detail_bar_more">Подробнее</string>
     <string name="client_detail_info_connection_24g">Wi-Fi-2.4G</string>
@@ -646,7 +658,7 @@
     <string name="client_detail_menu_remarks">Изменить имя</string>
     <string name="client_detail_menu_router_disk_access">Доступ к накопителю роутера</string>
     <string name="client_detail_menu_router_disk_access_description">Разрешает этому устройству доступ к накопителю роутера</string>
-    <string name="client_detail_net_flow">Скорость</string>
+    <string name="client_detail_net_flow">Настройка скорости</string>
     <string name="client_detail_net_speed">Скорость подключения</string>
     <string name="client_detail_open_mibox_control_panel">Нажмите, чтобы открыть пульт для Mi Box</string>
     <string name="client_detail_open_tv_control_panel">Нажмите, чтобы открыть пульт для Mi TV</string>
@@ -655,7 +667,7 @@
     <string name="client_detail_qos_level_high">Высокий</string>
     <string name="client_detail_qos_level_low">Низкий</string>
     <string name="client_detail_qos_level_normal">Средний</string>
-    <string name="client_detail_qos_title_">Скорость</string>
+    <string name="client_detail_qos_title_">Настройка скорости</string>
     <string name="client_detail_rename_prompt">Переименовать устройство</string>
     <string name="client_detail_tab_log">Журнал</string>
     <string name="client_detail_transfer_file">Передача файлов</string>
@@ -692,13 +704,13 @@
     <string name="client_devices_child_online_care_model">Режим онлайн защиты детей</string>
     <string name="client_devices_child_online_care_security">Защита безопасности</string>
     <string name="client_devices_child_online_care_security_des">Брандмауэр вредоносных URL-адресов / брандмауэр утечки информации</string>
-    <string name="client_devices_child_online_care_specail">Специальный уход</string>
+    <string name="client_devices_child_online_care_specail">Устройство онлайн</string>
     <string name="client_devices_child_online_care_specail_des">Напоминание о детских устройствах онлайн/офлайн</string>
     <string name="client_devices_child_online_care_time_des">Разумное планирование времени вашего ребенка в интернете</string>
     <string name="client_devices_des">Теоретически можно подключить %d устройств</string>
-    <string name="client_devices_phone_computer">Комп., тел. %d</string>
+    <string name="client_devices_phone_computer">💻Основные [%d]</string>
     <string name="client_devices_relay_modle_type_tip">В режиме ретрансляции информация, отображаемая устройством доступа, может быть неточной</string>
-    <string name="client_devices_smart">SmartHome %d</string>
+    <string name="client_devices_smart">🔌Другие [%d]</string>
     <string name="client_devices_smart_scan">Сканирование безопасности одним щелчком мыши</string>
     <string name="client_devices_smart_scan_IOT">Сканирование безопасности IOT</string>
     <string name="client_devices_smart_scan_des">Сканирование устройства на наличие уязвимостей безопасности</string>
@@ -753,12 +765,12 @@
     <string name="client_qos_download_band_x">Загрузка: %s</string>
     <string name="client_qos_download_speed">Максимальная скорость загрузки</string>
     <string name="client_qos_guest_limit_download">Загрузка</string>
-    <string name="client_qos_guest_limit_upload">Загрузка</string>
+    <string name="client_qos_guest_limit_upload">Отдача</string>
     <string name="client_qos_guest_percent">Ограничение по скорости гостевой сети Wi-Fi</string>
     <string name="client_qos_guest_status">До скорости Интернет %d%%</string>
     <string name="client_qos_guest_title">Ограничение скорости Wi-Fi</string>
     <string name="client_qos_guest_v2_download_title">%s ограничение скорости скачивания</string>
-    <string name="client_qos_guest_v2_upload_title">%s ограничение скорости загрузки</string>
+    <string name="client_qos_guest_v2_upload_title">%s ограничение скорости отдачи</string>
     <string name="client_qos_input_cannot_be_empty">Не может быть пустым</string>
     <string name="client_qos_input_cannot_be_negative">Вы должны ввести данные</string>
     <string name="client_qos_input_chars_invalid">Можно вводить только цифры</string>
@@ -769,8 +781,8 @@
     <string name="client_qos_limit_download_tip">Загрузка</string>
     <string name="client_qos_limit_setting">Настройка ограничения скорости</string>
     <string name="client_qos_limit_up_and_down">Сеть</string>
-    <string name="client_qos_limit_upload_status_prefix">Общее ограничение скорости загрузки</string>
-    <string name="client_qos_limit_upload_tip">Загрузка</string>
+    <string name="client_qos_limit_upload_status_prefix">Общее ограничение скорости отдачи</string>
+    <string name="client_qos_limit_upload_tip">Отдача</string>
     <string name="client_qos_manual_prompt">Для подключенных устройств скорость не ограничена</string>
     <string name="client_qos_max_download_band">Макс.скорость загрузки</string>
     <string name="client_qos_max_upload_band">Макс.скорость отдачи</string>
@@ -782,7 +794,7 @@
     <string name="client_qos_mode_manual_description">Не позволяет устройствам потреблять больше, чем лимит, который вы установите</string>
     <string name="client_qos_mode_priority">Установить приоритет для выбранных устройств</string>
     <string name="client_qos_mode_priority_description">Устройствам с более высоким приоритетом будет предоставлена более высокая скорость</string>
-    <string name="client_qos_prompt_on_speed_inaccurate">Настройка ограничения скорости<u>限速设置</u></string>
+    <string name="client_qos_prompt_on_speed_inaccurate">Настройка ограничения скорости<u>限速设置</u>" "</string>
     <string name="client_qos_prompt_simple_mode">Включите распределение скорости, чтобы обеспечить плавный доступ в Интернет для всех устройств</string>
     <string name="client_qos_requires_enable_qos">Включите этот плагин в \"Плагинах\"</string>
     <string name="client_qos_router">Ограничение скорости роутера</string>
@@ -797,7 +809,7 @@
     <string name="client_qos_service_video_description">Приоритет скорости для HD видео</string>
     <string name="client_qos_service_webpage">Приоритет страницы</string>
     <string name="client_qos_service_webpage_description">Приоритет скорости для страниц</string>
-    <string name="client_qos_smartly_adjust_speed">Скорость</string>
+    <string name="client_qos_smartly_adjust_speed">Настройка скорости</string>
     <string name="client_qos_smartly_adjust_speed_description">Установить лимит скорости для всех устройств</string>
     <string name="client_qos_speed_limit_unknown">Предел ограничения скорости неизвестен</string>
     <string name="client_qos_speed_mode">Настройки</string>
@@ -809,7 +821,7 @@
     <string name="client_qos_unlimited_download_band">Неограниченная скорость загрузки</string>
     <string name="client_qos_unlimited_upload_band">Неограниченная скорость отдачи</string>
     <string name="client_qos_upload_band">Отдача</string>
-    <string name="client_qos_upload_band_x">Загрузка: %s</string>
+    <string name="client_qos_upload_band_x">Отдача: %s</string>
     <string name="client_qos_upload_speed">Максимальная скорость отдачи</string>
     <string name="client_quicklink_error_5g_connected">Убедитесь, что включен 5G</string>
     <string name="client_quicklink_error_unknown">Неизвестная ошибка</string>
@@ -874,7 +886,7 @@
     <string name="collect_diagnosis_log">Отобрать журналы</string>
     <string name="common_abandon_modification">Отменить внесенные изменения?</string>
     <string name="common_add_fail">Не удалось добавить</string>
-    <string name="common_app_name">MiWi-Fi</string>
+    <string name="common_app_name">Mi WiFi</string>
     <string name="common_app_name_weibo">\@ роутер Xiaomi</string>
     <string name="common_attention">Примечание</string>
     <string name="common_back">Вернуться</string>
@@ -949,8 +961,8 @@
     <string name="common_network_unavailable_please_check">Текущая сеть недоступна, проверьте настройки сети и повторите попытку.</string>
     <string name="common_next_step">Далее</string>
     <string name="common_no_data">Нет данных</string>
-    <string name="common_offline">Оффлайн</string>
-    <string name="common_offline_with_brackets">(Оффлайн)</string>
+    <string name="common_offline">Не в сети</string>
+    <string name="common_offline_with_brackets">(Не в сети)</string>
     <string name="common_ok_button">ОК</string>
     <string name="common_ok_button_2">Хорошо</string>
     <string name="common_ok_button_3">Подтвердить</string>
@@ -994,11 +1006,12 @@
     <string name="common_signal_medium">Средний</string>
     <string name="common_signal_strong">Сильный</string>
     <string name="common_signal_weak">Слабый</string>
+    <string name="common_think_soon">скоро будет</string>
     <string name="common_third_step">Третий шаг</string>
     <string name="common_times">%1$s раз</string>
     <string name="common_today">Сегодня</string>
     <string name="common_unknown_error">Неизвестная ошибка</string>
-    <string name="common_upload">Загрузить</string>
+    <string name="common_upload">Отдача</string>
     <string name="common_version_low">Текущая версия системы слишком низкая, обновите ее до Android 5.0 или более поздней версии и повторите попытку.</string>
     <string name="common_waiting">Подождите...</string>
     <string name="common_yesterday">Вчера</string>
@@ -1316,6 +1329,9 @@ ID: %s
     <string name="diskbackup_title">Бэкап на роутер</string>
     <string name="diskbackup_title_tips">Бэкап фото, видео, контактов, приложений и других важных файлов</string>
     <string name="diskdoctor_status_ok">Жесткий диск в хорошем состоянии</string>
+    <string name="doing_login">Вход…</string>
+    <string name="doing_query_account">Проверка информации об аккаунте…</string>
+    <string name="doing_register">Создание аккаунта…</string>
     <string name="dongle_failed">Адаптер не подключен, проверьте</string>
     <string name="download_accelerate_count">Проверено:</string>
     <string name="download_accelerate_month_count">Остальные маршруты</string>
@@ -1811,7 +1827,7 @@ ID: %s
     <string name="guest_wifi_rent_tool_description">Вернуть заработанные деньги</string>
     <string name="guest_wifi_rent_tool_description_guess_num_money_1">Накопленный доход:</string>
     <string name="guest_wifi_rent_tool_description_guess_num_money_2">Р</string>
-    <string name="guest_wifi_rent_tool_incomes">Сведения о доходе</string>
+    <string name="guest_wifi_rent_tool_incomes">Доход</string>
     <string name="guest_wifi_rent_tool_title">Красный конверт Wi-Fi</string>
     <string name="guest_wifi_rent_unit_money">Р</string>
     <string name="guest_wifi_rent_unit_person">человек</string>
@@ -1862,7 +1878,7 @@ ID: %s
     <string name="guest_wifi_switch_title">Гостевой Wi-Fi</string>
     <string name="guest_wifi_title">Гостевой Wi-Fi</string>
     <string name="guest_wifi_tool_description">Бесплатное подключение к Wi-Fi для друзей WeChat</string>
-    <string name="guest_wifi_tool_title">Гость Wi-Fi</string>
+    <string name="guest_wifi_tool_title">Гостевой доступ к Wi-Fi</string>
     <string name="guest_wifi_unbind">Отменить привязку</string>
     <string name="guest_wifi_unbind_business_tip">После отмены привязки роутера от продавца, текущий режим будет выключен, вы уверены, что хотите отменить привязку его?</string>
     <string name="guest_wifi_unbind_wx_tip">Уверены, что хотите отменить привязку роутер от WeChat?</string>
@@ -1923,6 +1939,7 @@ ID: %s
     <string name="guideview_wechat_pay_description">Совместный доступ в Интернет, пусть оплачивают гости</string>
     <string name="guideview_wechat_pay_title">Заработать на Wi-Fi</string>
     <string name="hint_if_devices_categorization_errors">Если есть ошибка классификации устройства, нажмите здесь.</string>
+    <string name="i_know">Понятно</string>
     <string name="identity">Идентификация</string>
     <string name="image_desc">Описание: %s</string>
     <string name="img_info">Информация об изображении</string>
@@ -1963,7 +1980,7 @@ ID: %s
     <string name="invitation_process_failed">Обработка не удалась, пожалуйста, попробуйте еще раз</string>
     <string name="invitation_process_title">Поделитесь роутером Xiaomi/Redmi</string>
     <string name="invitation_process_waiting">Обрабатывается, пожалуйста, подождите</string>
-    <string name="invitation_refuse">Отклонить приглашение<u>拒绝邀请</u></string>
+    <string name="invitation_refuse">Отклонить приглашение<u>拒绝邀请</u>" "</string>
     <string name="invitation_send">Предоставить общий доступ</string>
     <string name="invitation_send_description">После обмена, пожалуйста, с помощью логина роутера примите приглашение</string>
     <string name="invitation_send_failed">Отправить не удалось, попробуйте еще раз</string>
@@ -1986,6 +2003,15 @@ ID: %s
     <string name="lcd_error">--</string>
     <string name="led_off_tip">Отключение индикаторов, не позволит следить за состоянием роутера, действительно отключить?</string>
     <string name="led_text">Вкл/выкл светодиоды на роутере</string>
+    <string name="library_android_database_sqlcipher_author">Zetetic, LLC</string>
+    <string name="library_android_database_sqlcipher_authorWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_isOpenSource">true</string>
+    <string name="library_android_database_sqlcipher_libraryDescription">Android SQLite API based on SQLCipher</string>
+    <string name="library_android_database_sqlcipher_libraryName">SQLCipher for Android</string>
+    <string name="library_android_database_sqlcipher_libraryVersion">${clientVersionNumber}</string>
+    <string name="library_android_database_sqlcipher_libraryWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_licenseLink">https://www.zetetic.net/sqlcipher/license/</string>
+    <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
     <string name="light_des">Яркость</string>
     <string name="light_des_comma">Яркость:</string>
     <string name="load_more_failed">Не удалось загрузить, пожалуйста, попробуйте еще раз</string>
@@ -2005,6 +2031,8 @@ ID: %s
     <string name="login_account_prompt">Аккаунт</string>
     <string name="login_auto_bind_failed">Неудачная привязка роутера</string>
     <string name="login_bootstrap">Настройка нового роутера Xiaomi/Redmi</string>
+    <string name="login_by_local_phone_long_text">Войти сейчас</string>
+    <string name="login_by_local_phone_short_text">Войти</string>
     <string name="login_cancel">Вход отменён</string>
     <string name="login_captcha_code_fail">Пожалуйста, введите правильный проверочный код</string>
     <string name="login_captcha_code_hint">Пожалуйста, введите проверочный код</string>
@@ -2013,13 +2041,15 @@ ID: %s
     <string name="login_declaration_content_privacy_protocol"> Политика конфиденциальности</string>
     <string name="login_declaration_content_user_protocol">Условия Лицензии </string>
     <string name="login_declaration_prefix">Используя этот продукт, Вы соглашаетесь с</string>
+    <string name="login_declaration_prefix_tip">Согласитесь с условиями Xiaomi</string>
     <string name="login_dynamic_token_fail">Ошибка SMS пароля</string>
     <string name="login_dynamic_token_hint">Пожалуйста, введите 6-значный SMS пароль</string>
     <string name="login_dynamic_token_title">Введите код проверки подлинности</string>
     <string name="login_dynamic_token_trust">Вход без пароля</string>
     <string name="login_error">Ошибка входа</string>
-    <string name="login_forget_password">Забыли пароль?<u>忘记密码</u></string>
+    <string name="login_forget_password">Забыли пароль?<u>忘记密码</u>" "</string>
     <string name="login_new_user_register">Регистрация</string>
+    <string name="login_other">Another Mi Account</string>
     <string name="login_passport_input_fail">Ошибка при вводе пароля или логина</string>
     <string name="login_passport_login_fail">Ошибка входа в аккаунт Xiaomi</string>
     <string name="login_passport_login_fail_error_code">Ошибка регистрации аккаунта Xiaomi, код ошибки: %d</string>
@@ -2028,6 +2058,7 @@ ID: %s
     <string name="login_phone_tip">Если выбрать для входа номер телефона, пользователям за пределами Китая необходимо ввести номер телефона в соответствии с международными стандартами, например, +1 12345678910</string>
     <string name="login_region_current">Текущий регион:</string>
     <string name="login_register">Регистрация</string>
+    <string name="login_register_by_local_phone_long_text">Создать аккаунт</string>
     <string name="login_register_login">Вход/Регистрация</string>
     <string name="login_safe_validate_relogin">Пожалуйста, войдите еще раз</string>
     <string name="login_switch_account">Переключить аккаунт</string>
@@ -2037,6 +2068,7 @@ ID: %s
     <string name="login_use_other_account">Войти через другой аккаунт</string>
     <string name="login_use_system_account">Войти с помощью системного аккаунта</string>
     <string name="login_username_input_fail">Mi аккаунт не существует</string>
+    <string name="login_with_sns">Другие способы входа</string>
     <string name="login_with_welcome">Добро пожаловать в роутер Xiaomi</string>
     <string name="logout_account">Выход</string>
     <string name="m_s"> MB/с.</string>
@@ -2088,7 +2120,7 @@ ID: %s
     <string name="mesh_bind_check_help1">Не удалось найти Xiaomi устройство в сети Mesh?</string>
     <string name="mesh_bind_check_help2">Просмотр помощи</string>
     <string name="mesh_bind_checking">Найден набор Mesh</string>
-    <string name="mesh_change_location_error_tip">Mesh роутер оффлайн, изменение не выполнено</string>
+    <string name="mesh_change_location_error_tip">Mesh роутер не в сети, изменение не выполнено</string>
     <string name="mesh_configure_add">Добавить роутер Mesh</string>
     <string name="mesh_configure_backup">Бэкап и восстановление</string>
     <string name="mesh_configure_create">Создание сети Mesh</string>
@@ -2135,7 +2167,7 @@ ID: %s
     <string name="mesh_device_details_access_type_elc">Доступ к линии питания</string>
     <string name="mesh_device_details_access_type_line">Сетевой кабель</string>
     <string name="mesh_device_details_connect_status">Состояние подключения</string>
-    <string name="mesh_device_details_connect_status_offline">Оффлайн</string>
+    <string name="mesh_device_details_connect_status_offline">Не в сети</string>
     <string name="mesh_device_details_connect_status_online">Сеть подключена</string>
     <string name="mesh_device_details_reboot">Перезагрузить</string>
     <string name="mesh_device_err_delete">Не удалось удалить устройство Mesh</string>
@@ -2165,13 +2197,19 @@ ID: %s
     <string name="mesh_extending_sub_title_success">Сеть успешно расширена</string>
     <string name="mesh_extentd_electricity_check_desc">Индикатор подтверждения мигает оранжевым</string>
     <string name="mesh_init_bsd_one">Сеть с двойным частотным разделением</string>
+    <string name="mesh_init_bsd_one_third">Mesh три частоты (основной маршрутизатор)</string>
     <string name="mesh_init_bsd_two">Двойная частота в одной сети</string>
+    <string name="mesh_init_bsd_two_third">Три частоты в одном Mesh</string>
     <string name="mesh_init_extending_tip">Пожалуйста подождите, пока вы автоматически не перейдете к следующему шагу</string>
     <string name="mesh_init_scan_node_limit_main">Сигнал слабый, подойдите к основному роутеру Mesh</string>
     <string name="mesh_init_success_congratulate">Поздравляем, покрытие Wi-Fi увеличено!</string>
     <string name="mesh_init_success_wifi_info">"2.4G Hz Wi-Fi：%1$s 
 	5G Hz Wi-Fi：%2$s"</string>
     <string name="mesh_init_success_wifi_info_2">2.4G/5G Hz Wi-Fi：%1$s</string>
+    <string name="mesh_init_success_wifi_info_2_third">2.4G/5G/5G Game Hz Wi-Fi：%1$s</string>
+    <string name="mesh_init_success_wifi_info_third">"2.4G Hz Wi-Fi：%1$s 5G Hz Wi-Fi：%2$s 5G Game Hz Wi-Fi：%3$s"</string>
+    <string name="mesh_init_success_wifi_info_tip1_third">Если расширенная Mesh является двухдиапазонным маршрутизатором, SSID и пароль расширенного Mesh-маршрутизатора такие же, как SSID и пароль для GAME 5G.</string>
+    <string name="mesh_init_success_wifi_info_tip2_third">Если расширенный Mesh-маршрутизатор поддерживает трехдиапазонную функцию, два SSID 5G и пароли расширенного Mesh-маршрутизатора будут соответствовать 5G основной Mesh-сети.</string>
     <string name="mesh_input_tip">Неверное имя или пароль Wi-Fi сети</string>
     <string name="mesh_kuozhan_mesh_other">Другое...</string>
     <string name="mesh_kuozhan_mesh_roter">Добавить роутер Mesh</string>
@@ -2407,8 +2445,11 @@ ID: %s
     <string name="minet_finished">Соединение завершено</string>
     <string name="minet_hint_content">После включения MiNET, можно быстро получить смарт-устройство без ввода пароля.</string>
     <string name="minet_know_more">Подробнее</string>
+    <string name="miwifi_ssl_tip">Перейдите на официальный сайт или в магазин приложений, чтобы загрузить последнюю версию приложения.</string>
+    <string name="miwifi_ssl_title">Ошибка в подписи</string>
     <string name="mobile_backup_enable">Бэкап подключенных устройств</string>
     <string name="movie_space_info">Свободно места: %1$s / Всего места: %2$s</string>
+    <string name="network_error_info">Произошла сетевая ошибка. Проверьте настройки сети и попробуйте еще раз.</string>
     <string name="network_optimize_add_reboot_timer_alert">Автоперезапуск для оптимизации, может быть изменен</string>
     <string name="network_optimize_cancel">Отменить оптимизацию</string>
     <string name="network_optimize_change_channel_alert">Эта операция переключит канал Wi-Fi и приведет к потере соединения со всеми устройствами под Wi-Fi. Продолжить?</string>
@@ -2534,8 +2575,9 @@ ID: %s
     <string name="network_status_wifi_block_desc">Защита от брутфорса Wi-Fi, а так же поддержка добавления в черный список одним нажатием</string>
     <string name="network_status_wifi_block_scan_step1">Сканирование антирекламы Wi-Fi...</string>
     <string name="network_status_wifi_block_title">Защита Wi-Fi от рекламы</string>
+    <string name="network_timeout_info">"Не удалось подключиться к сети. Попробуйте снова."</string>
     <string name="new_feature_switch_desc">Данная функция сделает вашу сеть еще более умной</string>
-    <string name="new_feature_switch_ok">Введите приложение</string>
+    <string name="new_feature_switch_ok">Вход в приложение</string>
     <string name="nick_name">Ник</string>
     <string name="no_account">Не вошли</string>
     <string name="no_offline_download_avaliable_router">В настоящее время нет роутера Xiaomi/Redmi, который можно загрузить в автономном режиме</string>
@@ -2551,9 +2593,12 @@ ID: %s
     <string name="notification_setting_time_setter_start_time">Время начала</string>
     <string name="notification_setting_time_setter_title">Установки времени</string>
     <string name="ok">Да, воспроизвести это видео</string>
+    <string name="open_settings">Настройки</string>
     <string name="operating_photo_need_stone_permission">Требуется разрешение на доступ к памяти, для чтения и записи, доступ к альбому или файлам для бекапа или загрузки</string>
+    <string name="operator_router_name_for_ra67">Mi Router RA67</string>
     <string name="operators_to_provide">Предоставлено оператором</string>
     <string name="other_feedback">Другие</string>
+    <string name="other_sdk_list">Список сторонних SDK</string>
     <string name="parent_control_delete_confirm">Удалить установленное время?</string>
     <string name="parent_control_entry_description_v1">Запретить устройству подключение к сети в заданный промежуток времени</string>
     <string name="parent_control_entry_description_v2">Настройка ограничения доступа в интернет для устройств</string>
@@ -2698,6 +2743,7 @@ ID: %s
     <string name="permission_blue_tooth">Разрешите использовать Bluetooth в настройках приложения</string>
     <string name="permission_camera__scan_qrcode">Разрешите доступ к камере для сканирования кода установки плагина</string>
     <string name="permission_camera_scan_tip">Разрешите доступ к камере для сканирования кода установки плагина</string>
+    <string name="permission_for_app">Разрешения приложения</string>
     <string name="permission_go_setting">Настройки</string>
     <string name="permission_message_rationale">"Для правильной работы Xiaomi Wi-Fi необходимы следующие разрешения:
 
@@ -2742,6 +2788,7 @@ ID: %s
     <string name="picker_second">с</string>
     <string name="picker_year">г.</string>
     <string name="pictures_and_videos_group_name_x_num_x">%1$d фото, %2$d видео</string>
+    <string name="progressbar_title">Проверка на наличие проблем с безопасностью…</string>
     <string name="promote_camera_backup_finish_text">Все файлы с вашей камеры будут импортированы в роутер</string>
     <string name="promote_camera_backup_finish_text_image_and_video">Импортировано %1$d фото、%2$d видео</string>
     <string name="promote_camera_backup_finish_title">Импорт камеры</string>
@@ -2774,6 +2821,7 @@ ID: %s
     <string name="pullrefresh_release_to_loadmore">Отпустить для загрузки</string>
     <string name="pullrefresh_release_to_refresh">Закрыть окно обновления</string>
     <string name="qq_application_id" />
+    <string name="qq_cient_not_found_tips">Пожалуйста, установите последнюю версию клиента QQ и попробуйте еще раз.</string>
     <string name="qq_login_protocol_scheme">com.xiaomi.passport.ui</string>
     <string name="quit_application">Закройте приложение</string>
     <string name="rating_dlg_accept">Похвалить</string>
@@ -2808,6 +2856,8 @@ ID: %s
     <string name="recovery_reset_activity_confirm_body_mesh">"1. Вы уверены, что хотите восстановить заводские настройки и позволить роутеру Xiaomi / Redmi вернуться в исходное состояние?
 2. После восстановления заводских настроек дочерний узел Mesh потеряет соединение, и сеть Mesh будет недоступна. "</string>
     <string name="recovery_succ_waiting">Заводские настройки успешно восстановлены</string>
+    <string name="register_by_local_phone_long_text">Создать аккаунт</string>
+    <string name="register_by_local_phone_short_text">Создать аккаунт</string>
     <string name="relay_bad_signal_hint1">Плохое расположение источника сигнала</string>
     <string name="relay_bad_signal_hint2">Рекомендуется разместить усилитель, что-бы он охватывал как можно большую площадь</string>
     <string name="relay_check_upgrade">Обновление</string>
@@ -2824,7 +2874,7 @@ ID: %s
     <string name="relay_wifi_analytic">Анализ Wi-Fi</string>
     <string name="reminder_auto_switch_wifi_failed">Неудачное переключение Wi-Fi на %s</string>
     <string name="reminder_auto_switch_wifi_success">Wi-Fi переключен на %s</string>
-    <string name="reminder_disconnect">Устройство не имеет интернет подключения</string>
+    <string name="reminder_disconnect">Устройство не подключено к интернету</string>
     <string name="reminder_disk_sync_failed_1">Не удалось перенести файлы</string>
     <string name="reminder_disk_sync_failed_2">Не удалось перенести файлы, соедините два роутера помощью сетевого кабеля</string>
     <string name="reminder_disk_sync_paused">Перенос файлов приостановлен</string>
@@ -2856,6 +2906,10 @@ ID: %s
     <string name="reminder_timeout">Тайм-аут доступа к роутеру, рекомендуется немедленный ремонт</string>
     <string name="reminder_timeout_button">Ремонт</string>
     <string name="reminder_timezone">Неверный часовой пояс, поменяйте настройки</string>
+    <string name="request_camera_permission_message">"Мы будем защищать вашу личную информацию в соответствии с соответствующими законами и постановлениями. Для нормальной работы этому приложению необходимы следующие разрешения: Использование камеры (для установки фото профиля). Если вы не согласны предоставлять такие разрешения, вы не сможете использовать некоторые функции этого приложения; однако его базовая функциональность по-прежнему будет вам доступна. Вы всегда можете ограничить разрешения или отозвать авторизацию в Настройках."</string>
+    <string name="request_error_invalid_token">"Не удалось проверить"</string>
+    <string name="request_error_network">Произошла сетевая ошибка. Проверьте настройки сети и попробуйте еще раз.</string>
+    <string name="request_error_unknown">Произошла системная ошибка. Вернитесь и попробуйте еще раз.</string>
     <string name="request_failed_and_retry">Не удалось выполнить запрос, пожалуйста, повторите попытку позже</string>
     <string name="resend_active_email">Отправить повторно</string>
     <string name="resend_email_reach_limit_message">Вы запросили слишком много подтверждающих писем. Убедитесь,что письмо с подтверждением не находится в папке Спам вашего почтового ящика.</string>
@@ -2931,13 +2985,13 @@ ID: %s
     <string name="router_setting_new_password_same_to_origin">Новый пароль не может совпадать со старым</string>
     <string name="router_setting_password_loading">Настройка пароля роутера...</string>
     <string name="router_setting_password_success">Пароль администратора роутера успешно сброшен</string>
-    <string name="router_status_check_network_tip">Пожалуйста, проверьте вашу мобильную сеть</string>
+    <string name="router_status_check_network_tip">Пожалуйста, проверьте вашу сеть</string>
     <string name="router_status_connecting">Подключение</string>
     <string name="router_status_network_detection">Немедленная диагностика сети</string>
     <string name="router_status_network_problem">Проблемы с сетью</string>
     <string name="router_status_network_usual">Подключено</string>
     <string name="router_status_network_usual_des">%d устройств подключено</string>
-    <string name="router_status_phone_network_unusual">Сбой мобильной сети</string>
+    <string name="router_status_phone_network_unusual">Сбой сети</string>
     <string name="router_status_router_offline">Роутер не в сети</string>
     <string name="router_status_router_offline_time">Время автономной работы роутера</string>
     <string name="router_system_program">Системные программы роутера</string>
@@ -2995,6 +3049,7 @@ ID: %s
     <string name="setting_prompt_router_name_invalid">Пожалуйста, введите стандартные символы, такие как Xiaomi.Luyouqi</string>
     <string name="setting_prompt_router_name_should_not_empty">Имя роутера не может быть пустым</string>
     <string name="setting_prompt_router_name_too_long">Длина имени Wi-Fi не должна превышать 28 цифр</string>
+    <string name="setting_prompt_router_name_too_long_formate">Wi-Fi Длина имени не может превышать %d цифр.</string>
     <string name="setting_prompt_router_pwd_invalid">Пароль не может содержать китайские и специальные символы</string>
     <string name="setting_prompt_wifi_psw_at_least_8">Для Wi-Fi пароля требуется как минимум 8 символов</string>
     <string name="setting_prompt_wifi_ssid_conflict1">Имена 5G и 2.4G совпадают</string>
@@ -3030,9 +3085,12 @@ ID: %s
     <string name="setting_wifi">Настройки Wi-Fi</string>
     <string name="setting_wifi_2_4_switch">2.4G Wi-Fi</string>
     <string name="setting_wifi_5_0_switch">5G Wi-Fi</string>
+    <string name="setting_wifi_5_1_switch">5G Game Wi-Fi Выключатель</string>
     <string name="setting_wifi_bsd_switch">Wi-Fi</string>
     <string name="setting_wifi_bsd_switch_off">Закрытие двухдиапазонного Wi-Fi, 2.4G, 5G по умолчанию будет использовать то же имя сети и пароль, Если не задано значение, пожалуйста измените.</string>
+    <string name="setting_wifi_bsd_switch_off_third">Трехдиапазонный Wi-Fi отключен, 5G и 5G Game будут использовать одно и то же имя сети 2.4G (плюс суффикс _5G/_5G game) и пароль по умолчанию. Если вам нужно установить другое значение, измените его.</string>
     <string name="setting_wifi_bsd_switch_on">После открытия, 2.4G и 5G будет использовать то же имя (по умолчанию 2.4G), роутер автоматически выберет наилучшую Wi-Fi сеть для терминала, но из-за возможных различий в устройстве терминала, может быть: [при автопереключении, источник сигнала прервется на короткое время], уверены, что хотите открыть?</string>
+    <string name="setting_wifi_bsd_switch_on_third">После включения 2.4G, 5G и 5G Game будут использовать одно и то же имя (по умолчанию используется конфигурация, связанная с 2.4G), и маршрутизатор автоматически выберет лучшую сеть Wi-Fi для терминала, но из-за различий в оконечном оборудовании, может быть: автоматическое переключение источника сигнала, когда сеть будет прерываться на короткое время или даже часто пропадать. Подтвердить включение?</string>
     <string name="setting_wifi_dec">Пароль, сигнал</string>
     <string name="setting_wifi_encyption_choose">Выберите режим шифрования</string>
     <string name="setting_wifi_encyption_none">Без шифрования (позволяя все соединения)</string>
@@ -3045,6 +3103,7 @@ ID: %s
     <string name="setting_wifi_fangke_wifi_2_4_turnoff_hint">Гостевой Wi-Fi на частоте 2.4G. Включите 2.4G Wi-Fi, чтобы использовать эту функцию</string>
     <string name="setting_wifi_fangke_wifi_prefix">Xiaomi_Hello_</string>
     <string name="setting_wifi_fusion_desc">Комбинированный 2.4G и 5G, автопереключение на лучшую Wi-Fi сеть</string>
+    <string name="setting_wifi_fusion_third_title">Wi-Fi - три частоты в одном</string>
     <string name="setting_wifi_fusion_title">Двухдиапазонный Wi-Fi</string>
     <string name="setting_wifi_guest_2_4_switch">Гостевой Wi-Fi</string>
     <string name="setting_wifi_guest_wifi_hint">Гостевой Wi-Fi для друзей, поможет защитить ваши данные. Рекомендуется придумать простой и легко запоминающийся пароль для гостей</string>
@@ -3068,6 +3127,7 @@ ID: %s
     <string name="setting_wifi_signal_strength_type">Сигнал: </string>
     <string name="setting_wifi_signal_strength_type_24g">Сила сигнала 2.4G:</string>
     <string name="setting_wifi_signal_strength_type_5g">Сила сигнала 5G:</string>
+    <string name="setting_wifi_signal_strength_type_5g2">5G Game - мощность сигнала:</string>
     <string name="setting_wifi_turnoff_local_used_promot">Текущее соединение Wi-Fi не может быть закрыто, в противном случае будет утрачено соединение и роутер</string>
     <string name="setting_wifi_turnoff_prompt">Это изменение перезагрузит Wi-Fi, устройства Wi-Fi временно потеряют связь, уверены?</string>
     <string name="setting_wifi_turnoff_prompt_for_mesh">"1. Это изменение перезапустит Wi-Fi и приведет к временной потере связи устройства Wi-Fi;
@@ -3089,6 +3149,7 @@ ID: %s
     <string name="sign_in">Вход в</string>
     <string name="sign_in_progress">Вход…</string>
     <string name="sign_in_title">Войдите в свой аккаунт Mi</string>
+    <string name="skip_query_account">Пропустить</string>
     <string name="smart_bulb">Смарт-лампа</string>
     <string name="sms_send_success">Успешно отправлено</string>
     <string name="sns_access_token_expired_warning">Сеанс закончился. Для подключения аккаунта, войдите в систему еще раз</string>
@@ -3141,6 +3202,7 @@ ID: %s
     <string name="stream_confirm_play_yes">Да, воспроизвести это видео</string>
     <string name="stream_high_bitrate_description">Битрейт видео слишком большой, пропускной способности сети может не хватить для плавного воспроизведения. Продолжить проигрывание этого видео</string>
     <string name="stream_high_bitrate_title">Битрейт видео слишком большой</string>
+    <string name="sure_account_mi_wifi">Подтвердите выход из Xiaomi WiFi</string>
     <string name="sure_and_open">Подтвердите и откройте</string>
     <string name="switch_child_model_closed">Отключение защиты доступа детей к интернету</string>
     <string name="switch_child_model_open">Открыть сейчас</string>
@@ -3167,7 +3229,7 @@ ID: %s
     <string name="sync_miot_failed_reason_api">Внутренняя ошибка сервера</string>
     <string name="sync_miot_failed_reason_device">Внутренняя ошибка устройства</string>
     <string name="sync_miot_failed_reason_no_permission">Недостаточно разрешений</string>
-    <string name="sync_miot_failed_reason_offline">Устройство оффлайн</string>
+    <string name="sync_miot_failed_reason_offline">Устройство не в сети</string>
     <string name="sync_miot_failed_reason_timeout">Тайм-аут</string>
     <string name="sync_miot_failed_reason_unknow">Неизвестная ошибка</string>
     <string name="sync_miot_loading_get_devices">Получение информации о устройствах Mi Home…</string>
@@ -3184,6 +3246,7 @@ ID: %s
     <string name="sync_miot_title_success">Синхронизированные устройства</string>
     <string name="system_account">Получение информации об аккаунте телефона</string>
     <string name="system_account_des">Быстрый вход в приложение с помощью Xiaomi аккаунта</string>
+    <string name="system_error_info">Система занята. Подождите минуту или две и попробуйте еще раз.</string>
     <string name="task_sync">Синхронизация информации</string>
     <string name="task_sync_backing">%1$s в телефон</string>
     <string name="temporary_not_available">Эта функция еще не доступна</string>
@@ -3317,6 +3380,7 @@ ID: %s
     <string name="toast_sd_invalid">SD-карта недоступна</string>
     <string name="toast_sd_space_not_enough">Недостаточно места на SD-карте</string>
     <string name="toast_set_wifi_success">Настройка завершена, повторное подключение Wi-Fi</string>
+    <string name="toast_set_wifi_success_wireless">Настройка завершена, повторно подключитесь к Wi-Fi. Если следующий новый Wi-Fi не обнаружен, это означает, что соединение реле не удалось! Пожалуйста, подтвердите правильность пароля Wi-Fi переключателя и перенастройте его.</string>
     <string name="toast_sync_miot_interrupt_warning">Выход приведет к отключению синхронизированного устройства от сети</string>
     <string name="toast_turn_on_location_provider">Пожалуйста, включите службы определения местоположения в настройках</string>
     <string name="toast_updating_please_click_later">Обновление, пожалуйста, сделайте это позже</string>
@@ -3357,11 +3421,16 @@ ID: %s
     <string name="tool_install_fail_no_disk">Ошибка установки, пожалуйста, попробуйте позже еще раз. Если ошибка появится снова, попробуйте перезагрузить роутер.</string>
     <string name="tool_install_plugin_title">Добавить и установить плагин</string>
     <string name="tool_install_recommend_tool">Уверены, что хотите загрузить %1$s?</string>
+    <string name="tool_install_recommend_tool_game">Открытие ускорителя вызовет сбой в работе сети. При установке этого плагина будут удалены другие плагины для ускорения сети. Вы уверены, что хотите загрузите его?</string>
     <string name="tool_install_success">Плагин установлен</string>
-    <string name="tool_interconnected">Связанные продукты</string>
+    <string name="tool_interconnected">Магазин</string>
     <string name="tool_invalid_mpk_error">Неверный инсталляционный пакет инструмента роутера</string>
     <string name="tool_invitation_router">Общий доступ к роутеру</string>
     <string name="tool_invitation_router_desc">Разрешить другим пользователям просматривать и изменять настройки роутера</string>
+    <string name="tool_jdc_integral">Интеграция JD Cloud</string>
+    <string name="tool_jdc_integral_go">Перейти к JD Cloud Wireless Bao</string>
+    <string name="tool_jdc_integral_msg">Плагин требует, чтобы вы зашли в приложение JD Cloud Wireless Bao, для привязки и использовании его в приложении JD Cloud Wireless Bao.</string>
+    <string name="tool_jdc_integral_uninstall">Сначала установите приложение JD Cloud Wireless Bao.</string>
     <string name="tool_manual_install">Установить плагин вручную</string>
     <string name="tool_market_dlna_tip">Несколько устройств, использующих одновременно функцию DLNA, могут повлиять на скорость сети. Не используйте одновременно более двух устройств с этой функцией.</string>
     <string name="tool_market_install">Установка</string>
@@ -3400,7 +3469,7 @@ ID: %s
     <string name="tool_plugin_not_support">Временно не удается открыть источник</string>
     <string name="tool_plugin_upload_failed">Ошибка загрузки</string>
     <string name="tool_plugin_upload_success">Файл загружен успешно</string>
-    <string name="tool_qos">Скорость</string>
+    <string name="tool_qos">Настройка скорости</string>
     <string name="tool_qos_description">Ограничение скорости подключенных устройств</string>
     <string name="tool_recommend_tool_not_interest">Не интересует</string>
     <string name="tool_router_download_timer">Запланированные загрузки</string>
@@ -3647,6 +3716,7 @@ ID: %s
     <string name="udriver_upgrade_ok">Установка завершена успешно</string>
     <string name="udriver_usb_can_use_dot">После установки устройства USB, вы сможете хранить и загружать данные (поддерживается NTFS, FAT, FAT32, EXFAT)</string>
     <string name="udriver_usb_can_use_dot_us">Вставьте USB-устройство, чтобы открыть хранилище и другие функции (поддерживаются файловые системы NTFS, FAT, FAT32)</string>
+    <string name="unknown_error_info">Неизвестная ошибка</string>
     <string name="update_email_address_dialog_message">Вы должны подтвердить свою личность, прежде чем обновить эл.почту восстановления.</string>
     <string name="update_email_address_dialog_title">Обновление восстановления эл.почты</string>
     <string name="update_phone_notice">Изменение параметров безопасности</string>
@@ -3659,7 +3729,13 @@ ID: %s
     <string name="url_not_known">Текущая версия роутера Xiaomi/Redmi не может обработать эту ссылку, пожалуйста, обновите клиент до последней версии.</string>
     <string name="usb_30_text">Открыть USB3.0</string>
     <string name="usb_30_tip">При включении, USB роутера будет работать в режиме 3.0 (окажет определенное влияние 2.4G Wi-Fi при включении USB3.0)</string>
+    <string name="usb_30_tip_third">Использование роутера USB3.0 окажет определенное влияние на 2.4GWiFi.При необходимости вы можете отключить USB3.0, и система автоматически переключится в режим USB2.0. (USB2.0 не влияет на 2.4G WiFi)</string>
     <string name="usb_30_warning">Эти действия перезагрузят роутер, продолжить?</string>
+    <string name="usb_download_tips">Инструкции по использованию сторонних загрузок</string>
+    <string name="user_agreement_hint_default">Пусто<Data>"I've read and agreed to the &lt;a href=%1$s&gt;User Agreement&lt;/a&gt; and &lt;a href=%2$s&gt;Privacy Policy.&lt;/a&gt;"</Data></string>
+    <string name="user_agreement_hint_with_mobile">Пусто<Data>"I've read and agreed to the &lt;a href=%1$s&gt;User Agreement&lt;/a&gt;, &lt;a href=%2$s&gt;Privacy Policy&lt;/a&gt;, and &lt;a href=%3$s&gt;Terms and conditions of China Mobile verification services&lt;/a&gt;."</Data></string>
+    <string name="user_agreement_hint_with_telecom">Пусто<Data>"I've read and agreed to the &lt;a href=%1$s&gt;User Agreement&lt;/a&gt;, &lt;a href=%2$s&gt;Privacy Policy&lt;/a&gt;, and &lt;a href=%3$s&gt;Terms and conditions of eSurfing account verification services&lt;/a&gt;."</Data></string>
+    <string name="user_agreement_hint_with_unicom">Пусто<Data>"I've read and agreed to the &lt;a href=%1$s&gt;User Agreement&lt;/a&gt;, &lt;a href=%2$s&gt;Privacy Policy&lt;/a&gt;, and &lt;a href=%3$s&gt;Terms and conditions of China Unicom verification services&lt;/a&gt;."</Data></string>
     <string name="user_avatar_update_title">Изменить аватар</string>
     <string name="user_avatar_uploading">Секундочку…</string>
     <string name="user_experience_improve_agree">Присоединиться</string>
@@ -3694,6 +3770,7 @@ ID: %s
     <string name="user_experience_improve_short_desc">Присоединение к программе улучшения качества ПO поможет нам улучшить роутер на основании опыта пользователей. [Подробнее]</string>
     <string name="user_experience_improve_tips">Помогите оптимизировать продукт</string>
     <string name="user_id_hint">Эл.почта/телефон/аккаунт Xiaomi</string>
+    <string name="user_name_phone_number">Номер телефона</string>
     <string name="v_code_title">Введите код подтверждения</string>
     <string name="vpn_address_list">Список адресов сайтов для VPN</string>
     <string name="vpn_connect_fail">Ошибка подключения</string>
@@ -3703,8 +3780,8 @@ ID: %s
     <string name="vpn_device_list_add_from_device_list">Выбрать из списка</string>
     <string name="vpn_device_list_add_from_mac">Добавить MAC-адрес</string>
     <string name="vpn_filter">Смарт-ограничение VPN</string>
-    <string name="vpn_filter_by_device">Выбрать устройство для VPN</string>
-    <string name="vpn_filter_by_url">Выбрать адрес сайта для VPN</string>
+    <string name="vpn_filter_by_device">Режим устройство для VPN</string>
+    <string name="vpn_filter_by_url">Режим адрес сайта для VPN</string>
     <string name="vpn_filter_device_list_title">Выбор объекта</string>
     <string name="vpn_filter_mac_add_mac">Добавить MAC-адрес</string>
     <string name="vpn_filter_url_add_url">Добавить адрес</string>
@@ -3850,7 +3927,7 @@ www.facebook.com"</string>
     <string name="wifi_open_error">Не удалось включить Wi-Fi, включите Wi-Fi вручную</string>
     <string name="wifi_radar_tip">В соответствии с национальными законами и правилами роутер производит поиск сигнала, сигнал Wi-Fi должен быть&lt;font color=#F5BC23&gt;%s&lt;/font&gt;перед включением, пожалуйста, подождите некоторое время…</string>
     <string name="wifi_setting_easy_connect_des">Если эта функция включена, маршрутизатор может автоматически обнаруживать неинициализированные устройства Wi-Fi, поддерживающие Easy Connect, и быстро настраивать сеть через приложение Mijia; изменение пароля маршрутизатора также автоматически синхронизируется с устройствами, поддерживающими Easy Connect.</string>
-    <string name="wifi_setting_easy_connect_title">Успешно</string>
+    <string name="wifi_setting_easy_connect_title">Easy connect</string>
     <string name="wifi_six_mu_mimo_caption">Режим совместимости Wi-Fi 5</string>
     <string name="wps_connect_failed_tip">Устройство не подключено</string>
     <string name="wps_connect_first_step">Включите службу WPS подключения, роутер принимает запросы от других устройств сети в течение двух минут;</string>

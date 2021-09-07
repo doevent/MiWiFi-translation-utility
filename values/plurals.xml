@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <plurals name="backup_complete_notification_text_photo_x">
+        <item quantity="other">Сохранено %d фото</item>
+    </plurals>
+    <plurals name="backup_complete_notification_text_video_x">
+        <item quantity="other">Сохранено %d видео</item>
+    </plurals>
+    <plurals name="block_device_crack_router_management_password_frequency_x">
+        <item quantity="other">Попытка взлома пароля администратора роутера %d раз в минуту</item>
+    </plurals>
+    <plurals name="block_device_crack_wifi_password_frequency_x">
+        <item quantity="other">Попыток взлома пароля Wi-Fi %d раз/мин</item>
+    </plurals>
+    <plurals name="block_device_invade_frequency_x">
+        <item quantity="other">%d раз/мин.</item>
+    </plurals>
+    <plurals name="block_device_record_times_auto">
+        <item quantity="other">Смарт-блокировка: %d раз</item>
+    </plurals>
+    <plurals name="block_device_record_times_black">
+        <item quantity="other">Блокировано в чёрном списке %d раз</item>
+    </plurals>
+    <plurals name="block_device_x_times">
+        <item quantity="other">Успешно заблокировано %d раз</item>
+    </plurals>
+    <plurals name="bootstrap_name_too_long">
+        <item quantity="other">Длина имени не может превышать %d символов</item>
+    </plurals>
+    <plurals name="bootstrap_wifi_name_too_long">
+        <item quantity="other">Имя сети Wi-Fi не может превышать %d</item>
+    </plurals>
+    <plurals name="client_block_device_crack_router_x_times">
+        <item quantity="other">Попыток взлома роутера %d раз/мин.</item>
+    </plurals>
+    <plurals name="client_block_device_crack_router_x_times_auto_blocked">
+        <item quantity="other">Заблокировано попыток взлома роутера %d раз/мин.</item>
+    </plurals>
+    <plurals name="client_block_device_try_to_connect_to_router_x_times">
+        <item quantity="other">Попытка доступа к сети %d раз/мин.</item>
+    </plurals>
+    <plurals name="client_block_device_try_to_connect_to_router_x_times_auto_blocked">
+        <item quantity="other">Заблокировано попыток взлома роутера %d раз/мин.</item>
+    </plurals>
+    <plurals name="client_camera_image_found">
+        <item quantity="other">Найдено новых фото: %d</item>
+    </plurals>
+    <plurals name="client_camera_scanning_count">
+        <item quantity="other">Сканирование фото и видео (%d проверено файлов)…</item>
+    </plurals>
+    <plurals name="client_camera_video_found">
+        <item quantity="other">Найдено новых видео: %d</item>
+    </plurals>
+    <plurals name="client_guest_device_online">
+        <item quantity="other">%d пользователей онлайн</item>
+    </plurals>
+    <plurals name="client_qos_input_cannot_be_more_than">
+        <item quantity="other">Слишком большой, максимально %d</item>
+    </plurals>
+    <plurals name="client_qos_input_must_be_more_than">
+        <item quantity="other">Должно быть больше %d</item>
+    </plurals>
+    <plurals name="client_qos_input_out_of_bound">
+        <item quantity="other">Слишком большой (превышает %d)</item>
+    </plurals>
+    <plurals name="client_storage_device_event_scan_finished_image">
+        <item quantity="other">Импортировано новых фото: %d</item>
+    </plurals>
+    <plurals name="client_storage_device_event_scan_finished_video">
+        <item quantity="other">Импортировано новых видео: %d</item>
+    </plurals>
+    <plurals name="common_input_too_long">
+        <item quantity="other">Не более %d символов</item>
+    </plurals>
+    <plurals name="common_select_n">
+        <item quantity="other">Выбрано %d</item>
+    </plurals>
+    <plurals name="common_time_days_ago">
+        <item quantity="other">%1$d дн. назад</item>
+    </plurals>
+    <plurals name="common_time_hours_ago">
+        <item quantity="other">%1$d час. назад</item>
+    </plurals>
+    <plurals name="common_time_minutes_ago">
+        <item quantity="other">%1$d мин. назад</item>
+    </plurals>
+    <plurals name="common_time_seconds_ago">
+        <item quantity="other">%1$d сек. назад</item>
+    </plurals>
+    <plurals name="download_share_batch_link_title">
+        <item quantity="other">Общий ресурс %1$d</item>
+    </plurals>
+    <plurals name="file_batch_folder_operation_suffix">
+        <item quantity="other">%d папки и т.д.</item>
+    </plurals>
+    <plurals name="file_transfer_display_size_file_count">
+        <item quantity="other">%d файлы (папка)</item>
+    </plurals>
+    <plurals name="file_transfer_folder_download_size">
+        <item quantity="other">Общий размер: %d</item>
+    </plurals>
+    <plurals name="file_transfer_global_state_mesage">
+        <item quantity="other">В процессе %1$s, осталось %2$d задач</item>
+    </plurals>
+    <plurals name="file_transfer_notification_all_task_success">
+        <item quantity="other">Завершено: %d</item>
+    </plurals>
+    <plurals name="file_transfer_notification_download_success">
+        <item quantity="other">Загружено файлов на телефон: %d</item>
+    </plurals>
+    <plurals name="file_transfer_notification_upload_success">
+        <item quantity="other">Загружено файлов: %d</item>
+    </plurals>
+    <plurals name="minet_connect_waiting_tip">
+        <item quantity="other">Выберите устройство, ожидающее доступа, и окно MinNET автоматически закроется спустя %d мин.</item>
+    </plurals>
+    <plurals name="network_optimize_download_has_tasks">
+        <item quantity="other">%d шт.</item>
+    </plurals>
+    <plurals name="parent_control_filter_black_status">
+        <item quantity="other">Чёрный список сайтов %d</item>
+    </plurals>
+    <plurals name="parent_control_filter_url_limited">
+        <item quantity="other">Вы можете добавить только URL %d</item>
+    </plurals>
+    <plurals name="parent_control_filter_white_status">
+        <item quantity="other">Белый список сайтов %d</item>
+    </plurals>
+    <plurals name="pictures_group_name_x_num_x">
+        <item quantity="other">Фото %1$d</item>
+    </plurals>
+    <plurals name="promote_camera_backup_finish_text_image">
+        <item quantity="other">Успешно импортировано %d фото</item>
+    </plurals>
+    <plurals name="promote_camera_backup_finish_text_video">
+        <item quantity="other">Успешно импортировано %d видео</item>
+    </plurals>
+    <plurals name="promote_photo_backup_finish_text_image">
+        <item quantity="other">Бэкап фотографий %d прошел успешно</item>
+    </plurals>
+    <plurals name="promote_photo_backup_finish_text_video">
+        <item quantity="other">Бэкап видео %d прошел успешно</item>
+    </plurals>
+    <plurals name="reset_factory_exit">
+        <item quantity="other">Приложение автоматически завершит работу через %d сек.</item>
+    </plurals>
+    <plurals name="statistics_storage_usage_doc_description">
+        <item quantity="other">%d файлов</item>
+    </plurals>
+    <plurals name="statistics_storage_usage_music_description">
+        <item quantity="other">%d треков</item>
+    </plurals>
+    <plurals name="statistics_storage_usage_photo_description">
+        <item quantity="other">%d фото</item>
+    </plurals>
+    <plurals name="statistics_storage_usage_video_description">
+        <item quantity="other">%d видео</item>
+    </plurals>
+    <plurals name="tool_security_prevent_hijack_log_header_title">
+        <item quantity="other">Попыток взлома %1$d</item>
+    </plurals>
+    <plurals name="tool_security_private_protect_log_header_title">
+        <item quantity="other">Блокировка утечки информации %1$d</item>
+    </plurals>
+    <plurals name="tool_security_virus_firewall_log_header_title">
+        <item quantity="other">Просмотрено файлов с вирусами %1$d</item>
+    </plurals>
+    <plurals name="tool_security_virus_found_number">
+        <item quantity="other">Найдено %1$d опасных программ</item>
+    </plurals>
+    <plurals name="tool_security_web_firewall_header_title">
+        <item quantity="other">Блокировано вредоносных URL %1$d</item>
+    </plurals>
+    <plurals name="tool_security_wifi_block_log_header_title">
+        <item quantity="other">Блокировка анти-халявщиков Wi-Fi %1$d раз</item>
+    </plurals>
+    <plurals name="tool_security_wifi_block_log_sub_info">
+        <item quantity="other">%1$s | %2$s | умная блокировка %3$d</item>
+    </plurals>
+    <plurals name="videos_group_name_x_num_x">
+        <item quantity="other">Видео %1$d</item>
+    </plurals>
+    <plurals name="wps_connect_waiting_tip">
+        <item quantity="other">Автоотключение через %d мин.</item>
+    </plurals>
+</resources>
