@@ -3900,4 +3900,18 @@ www.facebook.com"</string>
 	<string name="user_agreement_hint_with_unicom">Пусто</string>
 	<string name="user_name_phone_number">Номер телефона</string>
 	<string name="access_denied_info">Операция выполняется слишком часто, повторите попытку позже.</string>
+	<string name="client_qos_guest_percent_v2">Общая скорость гостевого Wi-Fi ограничена скоростью внешней сети.</string>
+	<string name="permission_access">Доступ: </string>
+	<string name="permission_access_album_desc">Чтение и запись фотографий, файлов на устройстве управление хранилищем.</string>
+	<string name="permission_access_camera">Разрешения камеры</string>
+	<string name="permission_access_camera_desc">Для сканирования кодов, фотографирования и загрузки изображений и т.д.</string>
+	<string name="permission_access_contact">Мобильная сеть</string>
+	<string name="permission_access_contact_desc">Доступ к учетной записи мобильного телефона для быстрого входа в систему.</string>
+	<string name="permission_access_locate">Географическое положение</string>
+	<string name="permission_access_locate_desc">Доступ к автоматизации маршрутизации, списков WLAN и Bluetooth при подключении и обнаружения.</string>
+	<string name="permission_access_storage">Память телефона</string>
+	<string name="permission_authed">Разрешено</string>
+	<string name="permission_directions">Информация о разрешениях</string>
+	<string name="permission_go_opening">Настроить</string>
+	<string name="setting_system_account_manager">Управление разрешениями</string>
 </resources>
